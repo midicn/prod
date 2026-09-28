@@ -1,7 +1,7 @@
 {
   "name": "midicn · 制作与数字音乐",
   "short_name": "制作与数字音乐",
-  "description": "【批次 M6】制作 160（含 A9 应用配乐 16）+ 数字音乐 114。",
+  "description": "音乐制作与数字音频 —— 录音、混音、合成与音色设计、MIDI 编曲、应用配乐，从原理到实际操作。",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

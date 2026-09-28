@@ -1,7 +1,7 @@
 {
   "name": "midicn · Production & Digital Audio",
   "short_name": "Production & Digital Audio",
-  "description": "【批次 M6】制作 160（含 A9 应用配乐 16）+ 数字音乐 114。",
+  "description": "Music production and digital audio — recording, mixing, synthesis and sound design, MIDI arranging and scoring for media, from first principles to practice.",
   "start_url": "../en/",
   "scope": "./",
   "display": "standalone",
