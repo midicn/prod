@@ -1,7 +1,7 @@
 {
-  "name": "midicn · 制作与数字音乐",
-  "short_name": "制作与数字音乐",
-  "description": "音乐制作与数字音频 —— 录音、混音、合成与音色设计、MIDI 编曲、应用配乐，从原理到实际操作。",
+  "name": "midicn · 音频与音乐制作",
+  "short_name": "音频",
+  "description": "音频与音乐制作的原理与实操 —— 声学与听觉、录音、混音与母带、声音设计、游戏与影视音频，以及 DAW、MIDI、编曲与交付。",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
