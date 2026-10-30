@@ -1075,3 +1075,53 @@
   if ('requestIdleCallback' in window) { requestIdleCallback(registerSW, { timeout: 4000 }); }
   else { setTimeout(registerSW, 2500); }
 })();
+
+/* ── 顶栏站点菜单（窄屏）─────────────────────────────────────────── */
+(function () {
+  var btn = document.getElementById('navmenu-btn');
+  var panel = document.getElementById('navmenu-panel');
+  if (!btn || !panel) return;
+  function close() {
+    panel.hidden = true;
+    btn.setAttribute('aria-expanded', 'false');
+  }
+  btn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    var open = panel.hidden;
+    panel.hidden = !open;
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  document.addEventListener('click', function (e) {
+    if (panel.hidden) return;
+    if (panel.contains(e.target) || btn.contains(e.target)) return;
+    close();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') close();
+  });
+  panel.addEventListener('click', function (e) { if (e.target.closest('a')) close(); });
+})();
+
+/* ── 跨子域记住语言与明暗（cookie 是唯一能跨子域共享的存储）─────── */
+(function () {
+  function setCookie(k, v) {
+    try {
+      document.cookie = k + '=' + v + '; path=/; domain=.midicn.com; max-age=31536000; SameSite=Lax';
+    } catch (e) {}
+  }
+  var lang = document.querySelector('[data-setlang]');
+  if (lang) {
+    lang.addEventListener('click', function () {
+      setCookie('midicn-lang', lang.getAttribute('data-setlang'));
+    });
+  }
+  var themeBtn = document.getElementById('theme');
+  if (themeBtn) {
+    themeBtn.addEventListener('click', function () {
+      setTimeout(function () {
+        var v = document.documentElement.dataset.theme;
+        if (v) setCookie('midicn-theme', v);
+      }, 0);
+    });
+  }
+})();
