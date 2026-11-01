@@ -27,16 +27,16 @@ SOFTWARE.
 **MIT applies to code only** — the site's styles, client scripts and page
 templates under `assets/`:
 
-- midicn/prod : site pages (HTML), styles (CSS), client scripts (JavaScript)
+- midicn/theo : site pages (HTML), styles (CSS), client scripts (JavaScript)
 
 **The text content of every page** (headings, summaries, article bodies,
 diagram captions — both Chinese and English) is **original writing** licensed
 under **CC BY 4.0** — attribution only:
 
-    midicn 制作与数字音乐 © 2026 midicn contributors, licensed CC BY 4.0
+    midicn 乐理与和声 © 2026 midicn contributors, licensed CC BY 4.0
     https://creativecommons.org/licenses/by/4.0/
 
-The content source lives in [`midicn/music-production`](https://github.com/midicn/music-production);
+The content source lives in [`midicn/music-theory`](https://github.com/midicn/music-theory);
 see its `LICENSE` for the full content-licence text.
 
 **Musical material is NOT relicensed here.** Every track referenced by a page
