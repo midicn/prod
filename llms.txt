@@ -1,0 +1,35 @@
+# MIDI音乐 · 音频与音乐制作
+
+> 听音乐，学音乐，做音乐。
+
+录音、编曲、混音与交付的原理、操作和示例。
+
+这是网站内容入口索引。收录与引用不改变原文、曲目、音色或歌词的许可；本文件不授予模型训练权。
+This curated discovery index grants no model-training or third-party material rights.
+
+## 网站与使用说明
+
+- [MIDI音乐：站点与使用说明](https://home.midicn.com/about/): 品牌、分站、来源与反馈。
+
+## 内容入口
+
+- [音频与音乐制作 · midicn](https://prod.midicn.com/): 录音、编曲、混音与交付的原理、操作和示例。
+- [Ableton Live · 音频与音乐制作](https://prod.midicn.com/ableton-live/): 以片段网格与编曲视图两条时间线工作的 DAW，电子与现场演出常用。
+- [关于音频与音乐制作 · 音频与音乐制作](https://prod.midicn.com/about/): 音频与音乐制作这一站讲什么、按什么顺序读。
+- [吸音与扩散 · 音频与音乐制作](https://prod.midicn.com/absorption-and-diffusion/): 吸音减少反射能量，扩散打散方向，两者解决不同问题。
+- [ADAM Audio 监听 · 音频与音乐制作](https://prod.midicn.com/adam-audio/): 气动高音带来更多细节与亮度，做决定快，也更容易把混音做过。
+- [模拟到数字转换 · 音频与音乐制作](https://prod.midicn.com/adc-dac-conversion/): 采样与重建两道关口，决定数字音频保留了什么。
+- [加法合成 · 音频与音乐制作](https://prod.midicn.com/additive-synthesis/): 把正弦一层层叠起来，直接写出谐波结构。
+- [Audition（播客与对白后期） · 音频与音乐制作](https://prod.midicn.com/adobe-audition/): 以波形与频谱为核心的后期工具，擅长播客、对白清理与老录音修复。
+- [包络 ADSR · 音频与音乐制作](https://prod.midicn.com/adsr-envelope/): 四个时间段，决定音头、持续与余音的形状。
+- [AI 母带的边界 · 音频与音乐制作](https://prod.midicn.com/ai-mastering-limits/): 自动母带能对齐响度与音色，补不了混音和结构上的问题。
+- [AI 记谱与转写 · 音频与音乐制作](https://prod.midicn.com/ai-notation-transcription/): AI 记谱把演奏或音频转成谱面，量化与分句是主要误差来源。
+- [曲序与间隔 · 音频与音乐制作](https://prod.midicn.com/album-sequencing-and-gaps/): 曲序与间隔决定专辑的呼吸，也决定听众如何进入下一首。
+- [抗混叠 · 音频与音乐制作](https://prod.midicn.com/anti-aliasing/): 采样前压掉超上限的高频，防止它们折回成假声。
+- [为人声留位 · 音频与音乐制作](https://prod.midicn.com/arrangement-for-vocal/): 人声听不清，多半是伴奏在同一频段和同一时刻做了太多事。
+- [编曲与作曲的分界 · 音频与音乐制作](https://prod.midicn.com/arranging-vs-composition/): 作曲定骨架，编曲定载体；先分清哪些改动会改变作品身份。
+- [奏法切换的工程做法 · 音频与音乐制作](https://prod.midicn.com/articulation-switching/): 键位、控制器还是映射表，选错一条，换奏法就会吃掉音头。
+
+## English
+
+- [MIDI Music](https://home.midicn.com/en/): Listen, learn and make music.
